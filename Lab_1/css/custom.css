@@ -38,10 +38,7 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url(../assets/images/main_3D.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* The div block for the main_3d_image has no vertical size, 
-    so we need a height to see the background image */
     height: 200px;
-    /* border: 1px solid rgb(39, 36, 36); */
 }
 #main_text {
     float: left;
@@ -86,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .logo h1 {
-        font-family: cocaColaFont; /* You don't need to repeat this for each media query as it is propagated */
+        font-family: cocaColaFont; 
         font-size: 31px;
         margin: 0;
         margin-top: -10px;
@@ -118,51 +115,35 @@ h1, h2, h3, h4, h5, h6 {
     }
         
     .logo p {
-        font-size: 7px; /* You may have to tweak this to get a good fit */
-        margin-top: 22px; /* You may have to tweak this to get a good fit */
+        font-size: 7px; 
+        margin-top: 22px; 
         margin-bottom: 0px;
         padding-top: 0px;
         padding-left: 3px;
     }
 
-    /* New CSS rules to better position the navbar and increase its height, Bootstrap defaults tend to make your site look like a Bootstrap clone! 
-    */
-
-    /* CSS rule to overwrite the navbar background and border color â€” again, helps to stop your site looking like a Bootstrap clone! 
-    */
     .navbar_coca_cola {
-        background-color: #000000; /* Set navbar background color */
-        /* border-color: yellow; Sets the navbar border color */
-        /* border-style: solid; */
+        background-color: #000000; 
         border-width: 0px;
         min-height: 70px;
     }
 
-    /* CSS rule to overwrite the navbar-brand font color
-    */
+
     .navbar_coca_cola .navbar-brand {
         color: rgb(245, 235, 235);
     }
 
-    /* CSS rule to overwrite the navbar-brand font hover color
-    */
+ 
     .navbar_coca_cola .navbar-brand:hover {
         color: green;
     }
 
-    /* NAVIGATION MENU
-    */
-
-    /* CSS rules to overwrite the position of the Bootstrap menu. These are derived from the Bootstrapbay Bootstrap Tutorial Part 11 â€” CSS Modifications to Navbar and Buttons shows how to do this using Bootstrap 3, the principles should be the same: https://www.youtube.com/watch?v=7v2yC3GyDHU  
-
-    There is plenty more styling to do than indicated here, in mobile it still defaults to Bootstrap CSS on dropdown!
-    */
+ 
     .navbar_coca_cola .navbar-nav > li > a {
         color: white;  
     }
 
-    /* CSS rule to overwrite the bootstrap.css text hover color on the navbar
-    */
+ 
     .navbar_coca_cola .navbar-nav > li > a:hover, 
     .navbar_coca_cola .navbar-nav > li > a:focus {
         color: green;  
@@ -172,8 +153,7 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 0px;
     }
 
-    /* CSS rule to overwrite the bootstrap.css rules for setting the active font color and background colour
-    */
+
     .navbar_coca_cola .navbar-nav .nav-item > .active, 
     .navbar_coca_cola .navbar-nav > .active > a:hover, 
     .navbar_coca_cola .navbar-nav > .active > a:focus {
@@ -181,17 +161,11 @@ h1, h2, h3, h4, h5, h6 {
         background-color: rgb(239, 252, 255);
     }
 
-    /* A set of CSS rules to change the Bootstrap defaults for the menu link text color, hover, background, focus
-    */
-        
-    /* CSS rule to overwrite the bootstrap.css text hover color on the navbar
-    */
     .navbar_coca_cola .navbar-nav > li > a:hover, 
     .navbar_coca_cola  .navbar-nav > li > a:focus {
         color: green;  
     }
 
-    /* These next two CSS rules control the style of the icon bar */
     .navbar_coca_cola .navbar-toggler {
         border-color: white;
     }
@@ -204,13 +178,10 @@ h1, h2, h3, h4, h5, h6 {
         outline: none !important;
     }
 
-    /* Let's style the dropdown menu
-    */
-
     .dropdown-menu {
         text-align: -webkit-left;
         background-color: #b6e7f3;
-        margin-top: 20px; /* Experiment to move the dropdown menu down */
+        margin-top: 20px; 
     }
 
     .dropdown-menu .dropdown-item {
@@ -224,11 +195,10 @@ h1, h2, h3, h4, h5, h6 {
 
     /* CSS rule to style the footer */
     .footer {
-        background-color: #760003; /* Set navbar footer background color same as header */
+        background-color: #760003; 
         height: 50px;
     }
 
-    /* Footer information CSS rules */
     .footerInfo {
         margin-top: 0px;
     }
@@ -245,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
         text-decoration: none;
     }
 
-    /* Copyright CSS rules */
+   
     .copyright > p {
         color: rgb(255, 255, 255);
         margin: 5px;
@@ -254,7 +224,6 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 10px;
     }
 
-    /* Social media icons CSS rules*/
     .social {
         margin: 0px;
         padding: 0px;
@@ -271,8 +240,7 @@ h1, h2, h3, h4, h5, h6 {
         text-decoration: none;
     }
 
-    /* CSS rules for the social media font awesome iocns */
-
+   
     .fa-twitter:before {
         content: "\f081";
         color: green;
@@ -314,7 +282,6 @@ h1, h2, h3, h4, h5, h6 {
 
     .card {
         border: 0px solid rgba(0,0,0,.125);
-        /* border-radius: .25rem;*/
         margin-top: 10px;
         margin-bottom: 10px;
         background-color: rgb(202, 181, 181);
@@ -326,7 +293,7 @@ h1, h2, h3, h4, h5, h6 {
 
     /* Footer information CSS rules */
     .footer {
-        background-color: #4776cc; /* Set navbar footer background color same as header */
+        background-color: #4776cc; 
         height: 60px;
     }
 
@@ -343,13 +310,11 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 10px;
     }
 
-    /* Copyright CSS rules */
     .copyright > p {
         color: rgb(255, 255, 255);
         font-size: 12px;
     }
 
-    /* Social media icons CSS rules*/
     .social {
         padding: 5px;
     }
@@ -419,16 +384,12 @@ h1, h2, h3, h4, h5, h6 {
         background-color: rgb(218, 216, 148);
     }
 
-    /* ++++++++++++++++++++++++++LOGO+++++++++++++++++++++++*/
-    
-    /* CSS rule to style the mobile logo */
-
     .logo {
         margin-top: 3px;
     }
 
     .logo h1 {
-        font-family: cocaColaFont; /* You don't need to repeat this for each media query as it is propogated */
+        font-family: cocaColaFont; 
         font-size: 41px;
         margin: 0;
         margin-top: 0px;
@@ -471,9 +432,9 @@ h1, h2, h3, h4, h5, h6 {
         min-height: 90px;
     }
 
-    /* Footer information CSS rules */
+
     .footer {
-        background-color: #91df8f; /* Set navbar footer background color same as header */
+        background-color: #91df8f; 
         height: 70px;
     }
 
@@ -490,13 +451,13 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 12px;
     }
 
-    /* Copyright CSS rules */
+
     .copyright > p {
         color: rgb(59, 15, 15);
         font-size: 16px;
     }
 
-    /* Social media icons CSS rules*/
+
     .social {
         padding: 5px;
     }
@@ -509,7 +470,6 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 14px;
     }
 
-    /* CSS rules for the social media font awesome iocns */
     .fa-twitter-square:before {
         color: rgb(37, 144, 216);
     }
@@ -562,16 +522,13 @@ h1, h2, h3, h4, h5, h6 {
         background-color: rgb(192, 224, 236);
     }
 
-    /* Footer information CSS rules */
     .footer {
-        background-color: #8fbfdf; /* Set navbar footer background color same as header */
-    }
+        background-color: #8fbfdf; 
 
     .footerInfo .navbar-text > p {
         color: rgb(240, 14, 14);
     }
 
-    /* Copyright CSS rules */
     .copyright > p {
         color: rgb(240, 14, 14);
     }
@@ -585,7 +542,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .footer {
-        background-color: rgb(159, 182, 120); /* Set navbar footer background color same as header */
+        background-color: rgb(159, 182, 120); 
     }
 
     body {
@@ -605,7 +562,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .footer {
-        background-color: rgb(70, 97, 25); /* Set navbar footer background color same as header */
+        background-color: rgb(70, 97, 25); 
     }
 
     body {
@@ -618,8 +575,4 @@ h1, h2, h3, h4, h5, h6 {
 
  }
 
-
-
-
-
-
+}
