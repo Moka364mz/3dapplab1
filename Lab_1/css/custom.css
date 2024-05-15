@@ -38,7 +38,14 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url(../assets/images/main_3D.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< Updated upstream
     height: 200px;
+=======
+    /* The div block for the main_3d_image has no vertical size, 
+    so we need a height to see the background image */
+    height: 200px;
+    /* border: 1px solid rgb(39, 36, 36); */
+>>>>>>> Stashed changes
 }
 #main_text {
     float: left;
@@ -83,7 +90,11 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .logo h1 {
+<<<<<<< Updated upstream
         font-family: cocaColaFont; 
+=======
+        font-family: cocaColaFont; /* You don't need to repeat this for each media query as it is propagated */
+>>>>>>> Stashed changes
         font-size: 31px;
         margin: 0;
         margin-top: -10px;
@@ -115,35 +126,77 @@ h1, h2, h3, h4, h5, h6 {
     }
         
     .logo p {
+<<<<<<< Updated upstream
         font-size: 7px; 
         margin-top: 22px; 
+=======
+        font-size: 7px; /* You may have to tweak this to get a good fit */
+        margin-top: 22px; /* You may have to tweak this to get a good fit */
+>>>>>>> Stashed changes
         margin-bottom: 0px;
         padding-top: 0px;
         padding-left: 3px;
     }
 
+<<<<<<< Updated upstream
     .navbar_coca_cola {
         background-color: #000000; 
+=======
+    /* New CSS rules to better position the navbar and increase its height, Bootstrap defaults tend to make your site look like a Bootstrap clone! 
+    */
+
+    /* CSS rule to overwrite the navbar background and border color â€” again, helps to stop your site looking like a Bootstrap clone! 
+    */
+    .navbar_coca_cola {
+        background-color: #000000; /* Set navbar background color */
+        /* border-color: yellow; Sets the navbar border color */
+        /* border-style: solid; */
+>>>>>>> Stashed changes
         border-width: 0px;
         min-height: 70px;
     }
 
+<<<<<<< Updated upstream
 
+=======
+    /* CSS rule to overwrite the navbar-brand font color
+    */
+>>>>>>> Stashed changes
     .navbar_coca_cola .navbar-brand {
         color: rgb(245, 235, 235);
     }
 
+<<<<<<< Updated upstream
  
+=======
+    /* CSS rule to overwrite the navbar-brand font hover color
+    */
+>>>>>>> Stashed changes
     .navbar_coca_cola .navbar-brand:hover {
         color: green;
     }
 
+<<<<<<< Updated upstream
  
+=======
+    /* NAVIGATION MENU
+    */
+
+    /* CSS rules to overwrite the position of the Bootstrap menu. These are derived from the Bootstrapbay Bootstrap Tutorial Part 11 â€” CSS Modifications to Navbar and Buttons shows how to do this using Bootstrap 3, the principles should be the same: https://www.youtube.com/watch?v=7v2yC3GyDHU  
+
+    There is plenty more styling to do than indicated here, in mobile it still defaults to Bootstrap CSS on dropdown!
+    */
+>>>>>>> Stashed changes
     .navbar_coca_cola .navbar-nav > li > a {
         color: white;  
     }
 
+<<<<<<< Updated upstream
  
+=======
+    /* CSS rule to overwrite the bootstrap.css text hover color on the navbar
+    */
+>>>>>>> Stashed changes
     .navbar_coca_cola .navbar-nav > li > a:hover, 
     .navbar_coca_cola .navbar-nav > li > a:focus {
         color: green;  
@@ -153,7 +206,12 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 0px;
     }
 
+<<<<<<< Updated upstream
 
+=======
+    /* CSS rule to overwrite the bootstrap.css rules for setting the active font color and background colour
+    */
+>>>>>>> Stashed changes
     .navbar_coca_cola .navbar-nav .nav-item > .active, 
     .navbar_coca_cola .navbar-nav > .active > a:hover, 
     .navbar_coca_cola .navbar-nav > .active > a:focus {
@@ -161,11 +219,23 @@ h1, h2, h3, h4, h5, h6 {
         background-color: rgb(239, 252, 255);
     }
 
+<<<<<<< Updated upstream
+=======
+    /* A set of CSS rules to change the Bootstrap defaults for the menu link text color, hover, background, focus
+    */
+        
+    /* CSS rule to overwrite the bootstrap.css text hover color on the navbar
+    */
+>>>>>>> Stashed changes
     .navbar_coca_cola .navbar-nav > li > a:hover, 
     .navbar_coca_cola  .navbar-nav > li > a:focus {
         color: green;  
     }
 
+<<<<<<< Updated upstream
+=======
+    /* These next two CSS rules control the style of the icon bar */
+>>>>>>> Stashed changes
     .navbar_coca_cola .navbar-toggler {
         border-color: white;
     }
@@ -178,10 +248,20 @@ h1, h2, h3, h4, h5, h6 {
         outline: none !important;
     }
 
+<<<<<<< Updated upstream
     .dropdown-menu {
         text-align: -webkit-left;
         background-color: #b6e7f3;
         margin-top: 20px; 
+=======
+    /* Let's style the dropdown menu
+    */
+
+    .dropdown-menu {
+        text-align: -webkit-left;
+        background-color: #b6e7f3;
+        margin-top: 20px; /* Experiment to move the dropdown menu down */
+>>>>>>> Stashed changes
     }
 
     .dropdown-menu .dropdown-item {
@@ -195,10 +275,18 @@ h1, h2, h3, h4, h5, h6 {
 
     /* CSS rule to style the footer */
     .footer {
+<<<<<<< Updated upstream
         background-color: #760003; 
         height: 50px;
     }
 
+=======
+        background-color: #760003; /* Set navbar footer background color same as header */
+        height: 50px;
+    }
+
+    /* Footer information CSS rules */
+>>>>>>> Stashed changes
     .footerInfo {
         margin-top: 0px;
     }
@@ -215,7 +303,11 @@ h1, h2, h3, h4, h5, h6 {
         text-decoration: none;
     }
 
+<<<<<<< Updated upstream
    
+=======
+    /* Copyright CSS rules */
+>>>>>>> Stashed changes
     .copyright > p {
         color: rgb(255, 255, 255);
         margin: 5px;
@@ -224,6 +316,10 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 10px;
     }
 
+<<<<<<< Updated upstream
+=======
+    /* Social media icons CSS rules*/
+>>>>>>> Stashed changes
     .social {
         margin: 0px;
         padding: 0px;
@@ -240,7 +336,12 @@ h1, h2, h3, h4, h5, h6 {
         text-decoration: none;
     }
 
+<<<<<<< Updated upstream
    
+=======
+    /* CSS rules for the social media font awesome iocns */
+
+>>>>>>> Stashed changes
     .fa-twitter:before {
         content: "\f081";
         color: green;
@@ -282,6 +383,10 @@ h1, h2, h3, h4, h5, h6 {
 
     .card {
         border: 0px solid rgba(0,0,0,.125);
+<<<<<<< Updated upstream
+=======
+        /* border-radius: .25rem;*/
+>>>>>>> Stashed changes
         margin-top: 10px;
         margin-bottom: 10px;
         background-color: rgb(202, 181, 181);
@@ -293,7 +398,11 @@ h1, h2, h3, h4, h5, h6 {
 
     /* Footer information CSS rules */
     .footer {
+<<<<<<< Updated upstream
         background-color: #4776cc; 
+=======
+        background-color: #4776cc; /* Set navbar footer background color same as header */
+>>>>>>> Stashed changes
         height: 60px;
     }
 
@@ -310,11 +419,19 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 10px;
     }
 
+<<<<<<< Updated upstream
+=======
+    /* Copyright CSS rules */
+>>>>>>> Stashed changes
     .copyright > p {
         color: rgb(255, 255, 255);
         font-size: 12px;
     }
 
+<<<<<<< Updated upstream
+=======
+    /* Social media icons CSS rules*/
+>>>>>>> Stashed changes
     .social {
         padding: 5px;
     }
@@ -384,12 +501,23 @@ h1, h2, h3, h4, h5, h6 {
         background-color: rgb(218, 216, 148);
     }
 
+<<<<<<< Updated upstream
+=======
+    /* ++++++++++++++++++++++++++LOGO+++++++++++++++++++++++*/
+    
+    /* CSS rule to style the mobile logo */
+
+>>>>>>> Stashed changes
     .logo {
         margin-top: 3px;
     }
 
     .logo h1 {
+<<<<<<< Updated upstream
         font-family: cocaColaFont; 
+=======
+        font-family: cocaColaFont; /* You don't need to repeat this for each media query as it is propogated */
+>>>>>>> Stashed changes
         font-size: 41px;
         margin: 0;
         margin-top: 0px;
@@ -432,9 +560,15 @@ h1, h2, h3, h4, h5, h6 {
         min-height: 90px;
     }
 
+<<<<<<< Updated upstream
 
     .footer {
         background-color: #91df8f; 
+=======
+    /* Footer information CSS rules */
+    .footer {
+        background-color: #91df8f; /* Set navbar footer background color same as header */
+>>>>>>> Stashed changes
         height: 70px;
     }
 
@@ -451,13 +585,21 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 12px;
     }
 
+<<<<<<< Updated upstream
 
+=======
+    /* Copyright CSS rules */
+>>>>>>> Stashed changes
     .copyright > p {
         color: rgb(59, 15, 15);
         font-size: 16px;
     }
 
+<<<<<<< Updated upstream
 
+=======
+    /* Social media icons CSS rules*/
+>>>>>>> Stashed changes
     .social {
         padding: 5px;
     }
@@ -470,6 +612,10 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 14px;
     }
 
+<<<<<<< Updated upstream
+=======
+    /* CSS rules for the social media font awesome iocns */
+>>>>>>> Stashed changes
     .fa-twitter-square:before {
         color: rgb(37, 144, 216);
     }
@@ -522,13 +668,24 @@ h1, h2, h3, h4, h5, h6 {
         background-color: rgb(192, 224, 236);
     }
 
+<<<<<<< Updated upstream
     .footer {
         background-color: #8fbfdf; 
+=======
+    /* Footer information CSS rules */
+    .footer {
+        background-color: #8fbfdf; /* Set navbar footer background color same as header */
+    }
+>>>>>>> Stashed changes
 
     .footerInfo .navbar-text > p {
         color: rgb(240, 14, 14);
     }
 
+<<<<<<< Updated upstream
+=======
+    /* Copyright CSS rules */
+>>>>>>> Stashed changes
     .copyright > p {
         color: rgb(240, 14, 14);
     }
@@ -542,7 +699,11 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .footer {
+<<<<<<< Updated upstream
         background-color: rgb(159, 182, 120); 
+=======
+        background-color: rgb(159, 182, 120); /* Set navbar footer background color same as header */
+>>>>>>> Stashed changes
     }
 
     body {
@@ -562,7 +723,11 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .footer {
+<<<<<<< Updated upstream
         background-color: rgb(70, 97, 25); 
+=======
+        background-color: rgb(70, 97, 25); /* Set navbar footer background color same as header */
+>>>>>>> Stashed changes
     }
 
     body {
@@ -575,4 +740,12 @@ h1, h2, h3, h4, h5, h6 {
 
  }
 
+<<<<<<< Updated upstream
 }
+=======
+
+
+
+
+
+>>>>>>> Stashed changes
