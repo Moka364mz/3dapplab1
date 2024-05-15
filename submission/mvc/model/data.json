@@ -1,0 +1,49 @@
+{
+    "pageTextData": [
+		{
+			"title": "A top refreshing beverage for over a centuryn",
+			"subTitle": "Established by Dr. John S. Pemberton",		
+			"description": "The Coca Cola Company is the top global producer, marketer, and distributor of drink concentrates and syrups"
+		},
+		{
+			"title": "Originally, Coca-Cola was exclusively available on draft",
+			"subTitle": "Fact 1",		
+			"description": "The introduction of the iconic Coca-Cola bottle marked a significant milestone for the brand, transitioning from exclusive availability at soda fountains. Jacobs' Pharmacy in Atlanta is where Coca-Cola was first sold. In 1899, the bottling rights were purchased by businessmen Benjamin Thomas, Joseph Whitehead, and John Lupton for just $1 (77p), heralding a new era for the company."
+		},
+		{
+			"title": "Coca-Cola was the first sponsor of the Olympics",
+			"subTitle": "Fact 2",		
+			"description": "Coca-Cola, always keen on seizing advertising opportunities, became the first-ever Olympic sponsor, starting with the Summer Games in Amsterdam in 1928. The image shows a Coca-Cola stall at Wembley Stadium, London, during the Olympic Games in August 1948."
+		},
+		{
+			"title": "Coca-Cola was sent to troops as a matter of high priority",
+			"subTitle": "Fact 3",		
+			"description": "During World War II, Coca-Cola executive Robert Woodruff made a commitment that servicemen and women would be able to purchase a bottle of Coca-Cola for 5 cents, regardless of the cost to the company and their location around the world. Over five billion bottles of Coke were distributed to U.S. troops. To achieve this, portable soda fountains were flown into remote areas, including the South Pacific. The image depicts servicemen in Panama City, Florida, around 1942"
+		},
+		{
+			"x3dModelTitle": "Coca Cola X3D Model made in Cinema 4D",
+			"x3dCreationMethod": "This X3D model of the coke can has been created in Cinema4D with Abobe Photoshop, exported to VRML97 and converted, using the Camearas as an object for animation, to X3D for display online.",
+			"title": "History of Coca Cola",
+			"subTitle": "Facts you never knew about Coca-Cola",		
+			"description": "Coca-Cola has always emphasized that its recipe is a tightly kept secret, reportedly stored in a high-security vault in Atlanta. However, in 2011, This American Life claimed to have found the recipe in a 130-year-old notebook belonging to the inventor’s best friend. The formula listed 15 ingredients including cinnamon, neroli, coriander, and nutmeg oil. Coca-Cola maintained that the recipe was merely an older version, if it was genuine at all. The brand name Coca-Cola combines elements from two of its original ingredients: cocaine from the coca leaf and caffeine from the kola nut, with the alliteration adding to its market appeal. The logo has remained largely unchanged since its inception in 1886, still featuring the Spencerian script used at the start, with the most significant modification being the addition of a wavy underline in 1969. This information refers to an advertisement published in Family Circle magazine in July 1953."
+		},
+		{
+			"x3dModelTitle": "Sprite X3D Model made in Cinema 4D",
+			"x3dCreationMethod": "This X3D model of the coke can has been created in Cinema4D with Abobe Photoshop, exported to VRML97 and converted, using the Camearas as an object for animation, to X3D for display online."
+		},
+        {
+			"x3dModelTitle": "Dr Pepper X3D Model made in Cinema 4D",
+			"x3dCreationMethod": "This X3D model of the coke can has been created in Cinema4D with Abobe Photoshop, exported to VRML97 and converted, using the Camearas as an object for animation, to X3D for display online."
+		},
+		{
+			"galleryTitle": "The process of creation 3D Images",
+			"galleryDescription": "3D Images made in Cinema 4D"
+		},
+		{
+			"CameraTitle": "Camera Views made in Cinema4D",
+			"CameraSubtitle": "These buttons select a range of X3D model viewpoints"
+		}
+	]
+}
+
+
